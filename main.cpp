@@ -8,7 +8,7 @@
 #include "GL\freeglut.h"
 
 #include "shaderLoader.h" //narzŕdzie do │adowania i kompilowania shaderˇw z pliku
-#include "tekstura.h"
+
 
 //funkcje algebry liniowej
 #include "glm/vec3.hpp" // glm::vec3
@@ -39,7 +39,6 @@ double poprzednie_kameraZ;
 double poprzednie_kameraD;
 double z2;
 double x2;
-
 
 double rotation = 0;
 
@@ -344,6 +343,7 @@ void klawisz(GLubyte key, int x, int y)
 	case 's':
 		x2 += +1;
 		break;
+
 	}
 	
 	
@@ -565,9 +565,9 @@ int main(int argc, char **argv)
 
 	/*******************************  wczytanie labiryntu  ***************************************/
 	
-	std::ifstream file("lab22x22.txt");
-	//std::ifstream file("lab13x15.txt");
-	//std::ifstream file("lab8x6.txt");
+	std::ifstream file("SampleL/lab22x22.txt");
+	//std::ifstream file("Sample/lab8x6.txt");
+	//std::ifstream file("Sample/lab13x15.txt");
 	if (file.fail())
 	{
 		printf("Cannot open this file or is not in this directory ! \n");
@@ -641,7 +641,7 @@ int main(int argc, char **argv)
 
 	/*******************************  wczytywanie skarbów  ***************************************/
 	/////////skarb1
-	std::ifstream file1("icosa.txt"); //niebieski
+	std::ifstream file1("treasures/icosa.txt"); //niebieski
 	if (file1.fail())
 	{
 		printf("Cannot open this file or is not in this directory ! \n");
@@ -674,7 +674,7 @@ int main(int argc, char **argv)
 	
 	
 	/////////skarb2
-	std::ifstream file2("icosa_k.txt"); //zielony
+	std::ifstream file2("treasures/icosa_k.txt"); //zielony
 	if (file2.fail())
 	{
 		printf("Cannot open this file or is not in this directory ! \n");
@@ -708,7 +708,7 @@ int main(int argc, char **argv)
 
 
 	/////////skarb3
-	std::ifstream file3("octa.txt"); //zolty
+	std::ifstream file3("treasures/octa.txt"); //zolty
 	if (file3.fail())
 	{
 		printf("Cannot open this file or is not in this directory ! \n");
