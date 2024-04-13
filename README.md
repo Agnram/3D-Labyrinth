@@ -33,12 +33,17 @@ X  o  X X    X     X X
 XXXXXXXXXXXXXXXXXXXXXX`
 
 ### Result
- ![lab](https://github.com/Agnram/3D-Labyrinth/blob/main/images/lab%2022X22.png)
+ ![lab](images/lab%2022X22.png)
 
 ## Features
-- Rotating labirynth,
-- Zooming and moving the labyrinth,
-- Controlling the position of the light source.
+- Rotating labirynth  
+![lab](images/rotate.gif)
+
+- Zooming and moving the labyrinth  
+![lab](images/zoom.gif)
+
+- Controlling the position of the light source  
+![lab](images/light.gif)
 
 ### Controls
 - labirynth:
