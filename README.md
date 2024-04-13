@@ -36,13 +36,16 @@ XXXXXXXXXXXXXXXXXXXXXX`
  ![lab](images/lab%2022X22.png)
 
 ## Features
-- Rotating labirynth  
+- Rotating labirynth
+  
 ![lab](images/rotate.gif)
 
-- Zooming and moving the labyrinth  
+- Zooming and moving the labyrinth
+  
 ![lab](images/zoom.gif)
 
-- Controlling the position of the light source  
+- Controlling the position of the light source
+
 ![lab](images/light.gif)
 
 ### Controls
