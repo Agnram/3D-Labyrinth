@@ -8,25 +8,32 @@ It draws a maze and fills it with treasures based on .txt file where:
 - o indicates random treasure.
 
 ### Sample file:
-`13,15`  
-`XXXXXX XXXXXX
-X    X      X
-X XX X  XXX X
-X oX   oX X X
-XXXX  XXX X X
-X     X   X X
-X XXXXX X X X
-X  o    X XoX
-X XXXXXXX XXX
-X   X   X   X
-XXX X XXXX  X
-X  oX       X
-X XXXXX XXX X
-X o   X X   X
-XXXXXXX XXXXX`
+`22,22`  
+`XXXXXXXXXXXXXXXXXXXXXX
+X  o    X X o      X X
+XXXXXXX X X XXXXXX X X
+X o  X    X    X     X
+X XXXX XX X XXXX XXX X
+X X     X XXX  X X X X
+X  oXXX X Xo  XX X X X
+XXXXX   X XXX X X     
+  X X XXX   X   X XX X
+X X X   XXX XXX XoXX X
+X o X X X X X   X    X
+X X XoX   X X X XXXX X
+X X XXXXX X X X    X X
+X         X X XXX XX X
+X XXXXXXXXX X   Xo X X
+X  o    X   XXX XX X X
+XXX X XXXXX   X  X X X
+X X X Xo  XXX XX X X X
+X   X XXX      X X XoX
+XXXXX   X XXXX XXX X X
+X  o  X X    X     X X
+XXXXXXXXXXXXXXXXXXXXXX`
 
 ### Result
- ![lab](https://github.com/Agnram/3D-Labyrinth/blob/main/images/lab13x15.png)
+ ![lab](https://github.com/Agnram/3D-Labyrinth/blob/main/images/lab%2022X22.png)
 
 ## Features
 - Rotating labirynth,
