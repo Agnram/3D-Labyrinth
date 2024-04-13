@@ -26,6 +26,7 @@ X o   X X   X
 XXXXXXX XXXXX`
 
 ### Result
+ ![lab](https://github.com/Agnram/3D-Labyrinth/blob/main/images/lab13x15.png)
 
 ## Features
 - Rotating labirynth,
@@ -40,4 +41,5 @@ XXXXXXX XXXXX`
 - light source:
   - move horizontally: `4` `8` `2` `6`
   - move vertically: `9` `3`
+
 
